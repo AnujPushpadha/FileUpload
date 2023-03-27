@@ -3,7 +3,7 @@ const {
   registerUser,
   currentUser,
   loginUser,
-} = require("../controllers/userController");
+} = require("../controllers/usercontroller");
 const validateToken = require("../middleware/validateTokenHandler");
 
 const router = express.Router();
